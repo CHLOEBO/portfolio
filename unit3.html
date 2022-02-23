@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="icon" href="https://i.pinimg.com/550x/44/ba/f3/44baf30db092ccbdb18483d75a404407.jpg">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Chloe's Portfolio</title>
+
+
+ <div class="box">
+  <div class="titleBlock" id="cool">
+<img src="Assets/title.png"  class="titleImage">
+
+</div>
+<div class = "chloeFavorite">
+  
+        <ul id="horizontal-list"> 
+          <li><a href = index.html>Home</a></li>
+          <li><a href = project1.html> Project 1 </a></li>
+          <li><a href = project2.html> Project 2</a></li>
+          <li><a href = unit3.html>Unit 3</a></li>
+          <li><a href = blackFriday.html>Black Friday</a></li>
+          <li><a href = beach.html>Beach Project</a></li>
+          <li><a href = beach2.html>Beach Project Pt. 2</a></li>    
+          <li><a href = steam.html>STEAM Project</a></li>
+          <li><a href = card.html>Card Game</a></li>
+        </ul>
+
+
+        </div>
+
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    </div>
+
+
+<br>
+
+
+    <script src="script.js"></script>
+    <h1 class="name">Unit 3</h1>
+<div id="container">
+  <div id="left"><h4>De Morgan's Law</h4>
+  <h6>When there is an "!" before an if statement comparing two values, the "!" is distributed.<h6>
+  <h6>In addition, De Morgan's Law states that if this happens, the sign comparing the two values will change. For example, && becomes ||.<h6>
+    <h6>--------</h6>
+<h6>E.x.<h6>
+  <h6>!(x && y) == !x || !y<h6>
+    <h6>--------</h6>
+    <h6><b>Short circut evaluation</b> makes comparing two values more efficient. If using an "&&" to compare values and the first value is false, the system will automatically deem the statement as false. This saves time as the system does not need to check whether the other value is true or false.</h6>
+  </div>
+
+
+  <div id="right"><h4>Logic</h4> <h6>An "if statement" checks whether a conditional is true and runs the code inside the statement if it is true. If the conditional is false, the code does not run.</h6>
+  <h6>--------</h6>
+  <h6>An "else if statement" follows an if statement and only runs if the preceding statement is false. If this statement is true the code inside of the statement runs.</h6>
+  <h6>--------</h6>
+  <h6>An "else statement" runs after any "if"/"if else" statements and will only run if any preceding if the conditionals of the preceding "if statements" are seemed false.</h6>
+  <h6>--------</h6>
+<h6>To compare values, there are multiple different operators. The first is "&&" which means "and". Both values being compared using this operator must be true for the statement to be evaluated as true. Next, is "or" which is represented in code as "||". With an "||" operator, if either or both of the values being compared are true, the statement will be true. Finally, to see if the value is not equal to another value, use "!=". The "!" means not, therefore it will check if the value is not equal to the one it's being compared to.</h6>
+  </div>
+
+
+  <div id="center"><h4>== v.s. .equals</h4>
+   <h6><b>While "==" and ".equals" both check if two values are equal, they are still different. When checking if the memory location is the same for two objects, "==" should be used. ".equals" would be used when checking if the values of the objects are the same. </h6>
+<h6>--------</h6>
+<div class="examples">
+<h6>Example: </h6>
+<h6>String new = "apple";</h6>
+<h6>String old = "apple";</h6>
+<h6>return 3 == 3; </h6>
+<h6>return new == old;</h6>
+<h6>return new.equals(old);</h6>
+<h6>--------</h6>
+<h6>These statements would return:</h6>
+<h6>true</h6>
+<h6>false</h6>
+<h6>true</h6>
+</div>
+   </div>
+</div>
+<br>
+<iframe frameborder="0" width="75%" height=500px; src="https://replit.com/@ChloeBote/luckySum
+?embed=true"></iframe>
+
+    <h3>Coding Bat: luckySum</h3>
+<h5>This problem stated that when given three numbers, the sum is returned. However, when one of the numbers is 13, the values to the right do not count towards the sum. I solved this by creating if statements for each of the possible scenarios, accounting for what would happen if any of the three numbers were equal to 13.</h5>
+
+  </body>
+</html>

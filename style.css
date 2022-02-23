@@ -1,0 +1,183 @@
+body {
+  background-color: #FFFCF7;
+  font-family: Trebuchet MS, sans-serif;
+  text-align: center;
+  color: #738290;
+}
+
+.titleImage{
+  height: 120px;
+  width: auto;
+  display: block;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+h6{
+   margin: 0;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+
+h5{
+   margin: 0;
+   margin-left: 25%;
+  margin-right: 25%;
+}
+
+#container {
+  display: flex;                  /* establish flex container */
+  flex-direction: row;            /* default value; can be omitted */
+  flex-wrap: nowrap;              /* default value; can be omitted */
+  width: 50%;
+margin-left: 25%;
+  justify-content: space-between;
+
+}
+#container > div {
+  width: 200px;
+  height: 500px;
+margin-right: 10px;
+margin-left: 10px;
+background-color:#eff6e8;
+}
+
+.examples{
+  text-align: left;
+  margin-left: 15%;
+}
+
+.favorites{
+  text-align: center;
+}
+
+.titleBlock{
+  background-color:#eff6e8;
+
+}
+
+hr {
+  border: 1px solid #A1B5D8;
+  width: 70%;
+}
+
+.name{
+  background-color:#A1B5D8;
+  color: #738290;
+  width: 50%;
+  height: auto;
+  transform: translate(50%, 0%);
+}
+
+.container {
+  position: relative;
+  align-content: center;
+  width: 50%;
+  transform: translate(50%, 0%);
+  margin-top: 150px;
+  -ms-transform: translate(50%, 50%);
+}
+
+li span {
+  position: relative;
+}
+
+.picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #A1B5D8;
+  border-width: 4px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.imagechloe {
+  display: block;
+  width: 60%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #A1B5D8;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 120%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+a:link {
+  color: green;
+}
+
+a:hover {
+  color: #0c440a;
+}
+
+.things{
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+
+  #horizontal-list {
+  list-style-type: none;
+  margin-top: -10px;
+  padding-left: 12%;
+  text-align: center;
+  overflow: hidden;
+  background-color: #C2D8B9;
+  position: relative;
+
+}
+
+#horizontal-list li {
+  float: left;
+  text-align: center;
+}
+
+#horizontal-list li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#horizontal-list li a:hover {
+  background-color: rgb(181, 200, 173);
+}
+
+.beach{
+  margin-left: 25%;
+  margin-right: 25%;
+}
